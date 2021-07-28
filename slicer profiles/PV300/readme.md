@@ -9,3 +9,5 @@
 
 
 > When importing profiles into ideamaker, make sure you are setting the right plastic type for each profile as different plastics have differing densities/flow characteristics. The profile itself should also carry some printer and filament data with it, so when in doubt, just go with that.
+
+> **Don't know how to import .bin profiles?** https://www.raise3d.com/academy/how-to-import-and-export-3d-printing-files-on-ideamaker/
