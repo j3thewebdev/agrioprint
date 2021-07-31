@@ -5,4 +5,4 @@
 - update mini12864 neopixel macros to display printer status as colour.
 - digitalize octopi setup
 - digitalize pre-flight checklist
--  
+- add macros to assist with pre-flight.
