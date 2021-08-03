@@ -17,17 +17,17 @@ Step 2: Install Octoprint onto Raspberry Pi 4
 - After flashing the SDcard with the .img file, open up the SDCard and find "octopi-wpa-supplicant.txt".
 - Open "octopi-wpa-supplicant.txt" with a text editor such as VScode/Brackets.
 - Uncomment the lines prefixed with a single # of the configuration and enter your WIFI information below
-    ## WPA/WPA2 secured
-    #network={
-    #ssid="insert wifi user"
-    #psk="insert password"
-    #}
+        ## WPA/WPA2 secured
+        #network={
+        #ssid="insert wifi user"
+        #psk="insert password"
+        #}
 - Example with WIFI info:
-    ## WPA/WPA2 secured
-    network={
-    ssid="TELUS1234"
-    psk="kappa123"
-    }
+        ## WPA/WPA2 secured
+        network={
+        ssid="INTBOX1234"
+        psk="kappa123"
+        }
 - Save file
 - Insert card into Raspberry Pi 4 and power on.
 - Find IP of pi in router menu(192.168.1.254 = Default Gateway) or https://octopi.local/.
@@ -63,7 +63,7 @@ Step 4: Install Klipper
 - After installing, type "./klipper/scripts/install-octopi.sh" to install the dependencies and wait for it to install.
 
 Step 5: Configuring Octoprint to use Klipper
-- Enter the IP in the browser. Ex. https://pv1
+- Enter the IP in the browser.
 - In the navigation bar at the very top, click the 🔧 to open up the settings.
 - In Serial Connection, type "/tmp/printer" in Additional serial ports.
 - In Interval & Timeouts, change "Connection timeout" & "Communication timeout" to "600"s.
