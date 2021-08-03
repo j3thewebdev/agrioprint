@@ -29,7 +29,7 @@ Step 2: Install Octoprint onto Raspberry Pi 4
     - psk="kappa123"
     - }
 - Save file
-- Insert Card into Raspberry Pi 4 and power on.
+- Insert card into Raspberry Pi 4 and power on.
 - Find IP of pi in router menu(192.168.1.254 = Default Gateway) or https://octopi.local/.
 
 Step 3: Configure Octoprint
