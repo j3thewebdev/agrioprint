@@ -17,13 +17,13 @@ Step 2: Install Octoprint onto Raspberry Pi 4
 - After flashing the SDcard with the .img file, open up the SDCard and find "octopi-wpa-supplicant.txt".
 - Open "octopi-wpa-supplicant.txt" with a text editor such as VScode/Brackets.
 - Uncomment the lines prefixed with a single # of the configuration and enter your WIFI information below
-   `## WPA/WPA2 secured`
-   `#network={`
+   > `## WPA/WPA2 secured
+    #network={
     #ssid="insert wifi user"
     #psk="insert password"
     #}`
 - Example with WIFI info:
-   `## WPA/WPA2 secured
+  > `## WPA/WPA2 secured
     network={
     ssid="TELUS1234"
     psk="kappa123"
