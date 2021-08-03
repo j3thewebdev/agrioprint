@@ -2,7 +2,7 @@
 
 ![Image of Voron 2.4](http://vorondesign.com/images/voron2.4.jpg)
 
-** Note: Also refer to https://github.com/VoronDesign/Voron-2/raw/Voron2.4/Docs/2.4_Assembly_Manual.pdf for more information. (Start on Page 118) **
+**Note: Also refer to https://github.com/VoronDesign/Voron-2/raw/Voron2.4/Docs/2.4_Assembly_Manual.pdf for more information. (Start on Page 118)**
 
 Step 1: Preparing the board
 - Remove the jumpers indicated in the red boxes.
