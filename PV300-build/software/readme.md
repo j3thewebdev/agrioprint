@@ -24,6 +24,7 @@ Step 2: Install Octoprint onto Raspberry Pi 4
    >`#}`
 - Example with WIFI info:
    >`## WPA/WPA2 secured`
+   >
    >`network={`
    >`ssid="TELUS1234"`
    >`psk="kappa123"`
