@@ -82,5 +82,10 @@ Step 6: Configuring Klipper
 - Login into IP and enter the password.
 - Copy and paste "agr-octopus-PV300-config.cfg" from Agriolabs GitHub into /home/pi.
 - Rename file to "printer.cfg".
+- Edit "printer.cfg" and navigate to serial:/dev/serial/by-id/usb-Klipper_stm32f446xx_
+- Go to PuTTy and enter the IP.
+- Enter your username and the new password you created.
+- Type "ls /dev/serial/by-id/*"
+- Copy and paste the text and replace in serial.
 
 
